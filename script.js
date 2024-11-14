@@ -20,7 +20,10 @@ function login() {
   
     // Validate credentials
     if (username === correctUsername && password === correctPassword) {
-      alert("Login successful!");
+      //alert("Login successful!");
+      //<p id="welcomeMessage" class="error-message"></p>
+      errorMessage.style.display = "block";
+      errorMessage.textContent = "WelcomeMessage Login successful! ";
       // Redirect to another page or update the UI as needed
     } else {
       errorMessage.style.display = "block";
