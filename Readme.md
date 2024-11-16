@@ -26,7 +26,7 @@ Para ejecutar este proyecto y sus pruebas, necesitarás:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <URL del repositorio>
+   git clone <FelixChallenger/Primer-Poryecto-QA>
    cd project-login
    ```
 
