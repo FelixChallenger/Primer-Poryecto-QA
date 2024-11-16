@@ -14,7 +14,7 @@ Este proyecto incluye una página de inicio de sesión básica desarrollada en H
 - `script.js`: Funcionalidad JavaScript para validar el formulario.
 - `tests/`: Carpeta de pruebas.
   - `manual/test-cases.md`: Casos de prueba manuales.
-  - `login-test.js`: Archivo de pruebas automatizadas con Selenium.
+  - `Automated/login-test.js`: Archivo de pruebas automatizadas con Selenium.
 
 ## Prerrequisitos
 Para ejecutar este proyecto y sus pruebas, necesitarás:
