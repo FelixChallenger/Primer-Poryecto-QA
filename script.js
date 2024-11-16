@@ -2,6 +2,7 @@ function login() {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     const errorMessage = document.getElementById("errorMessage");
+    const welcomeMessage = document.getElementById("welcomeMessage")
   
     // Clear previous error message
     errorMessage.style.display = "none";
@@ -22,8 +23,8 @@ function login() {
     if (username === correctUsername && password === correctPassword) {
       //alert("Login successful!");
       //<p id="welcomeMessage" class="error-message"></p>
-      errorMessage.style.display = "block";
-      errorMessage.textContent = "Welcome, testuser!";
+      welcomeMessage.style.display = "block";
+      welcomeMessage.textContent = "Welcome, testuser!";
       // Redirect to another page or update the UI as needed
     } else {
       errorMessage.style.display = "block";
