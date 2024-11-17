@@ -27,7 +27,7 @@ Para ejecutar este proyecto y sus pruebas, necesitarás:
 1. **Clonar el repositorio**
    ```bash
    git clone <FelixChallenger/Primer-Poryecto-QA>
-   cd project-login
+   cd Primer-Poryecto-QA
    ```
 
 2. **Instalar Node.js y dependencias del proyecto**
