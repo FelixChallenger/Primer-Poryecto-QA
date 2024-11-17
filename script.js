@@ -24,7 +24,7 @@ function login() {
       //alert("Login successful!");
       //<p id="welcomeMessage" class="error-message"></p>
       welcomeMessage.style.display = "block";
-      welcomeMessage.textContent = "Welcome, testuser!";
+      welcomeMessage.textContent = "Welcome";
       // Redirect to another page or update the UI as needed
     } else {
       errorMessage.style.display = "block";
