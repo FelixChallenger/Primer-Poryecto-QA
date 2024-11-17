@@ -25,7 +25,7 @@ async function runLoginTest() {
 
     // Obtén el texto del mensaje de bienvenida y verifica que sea correcto
     let messageText = await successMessage.getText();
-    if (messageText === "Welcome") {
+    if (messageText === "Welcome, testuser!") {
       console.log("Prueba de inicio de sesión exitosa.");
     } else {
       console.log("Error: El mensaje de bienvenida no coincide.");
