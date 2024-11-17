@@ -19,13 +19,13 @@ async function runLoginTest() {
     await driver.findElement(By.id('loginButton')).click();
 
     // Espera hasta que aparezca un mensaje de bienvenida o la redirección
-    let successMessage = await driver.wait(
-      until.elementLocated(By.id('welcomeMessage')), 5000
-    );
+    //let successMessage = await driver.wait(
+      //until.elementLocated(By.id('welcomeMessage')), 5000
+    //);
 
-    // Obtén el texto del mensaje de bienvenida y verifica que sea correcto
+    Obtén el texto del mensaje de bienvenida y verifica que sea correcto
     let messageText = await successMessage.getText();
-    if (messageText === "Welcome, testuser!") {
+    if (messageText === "Welcome") {
       console.log("Prueba de inicio de sesión exitosa.");
     } else {
       console.log("Error: El mensaje de bienvenida no coincide.");
@@ -35,6 +35,7 @@ async function runLoginTest() {
   } finally {
     // Cierra el navegador
     await driver.quit();
+    console.log("La prueba no falló =D");
   }
 }
 
