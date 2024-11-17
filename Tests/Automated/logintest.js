@@ -23,7 +23,7 @@ async function runLoginTest() {
       //until.elementLocated(By.id('welcomeMessage')), 5000
     //);
 
-    Obtén el texto del mensaje de bienvenida y verifica que sea correcto
+    //Obtén el texto del mensaje de bienvenida y verifica que sea correcto
     let messageText = await successMessage.getText();
     if (messageText === "Welcome") {
       console.log("Prueba de inicio de sesión exitosa.");
