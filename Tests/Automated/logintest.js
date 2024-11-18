@@ -7,7 +7,7 @@ async function runLoginTest() {
 
   try {
     // Abre la página de inicio de sesión
-    await driver.get('https://felixchallenger.github.io/Primer-Poryecto-QA/'); // Asegúrate de que coincide con la ruta de tu HTML
+    await driver.get('https://felixchallenger.github.io/Primer-Poryecto-QA/'); 
 
     // Localiza e ingresa el nombre de usuario
     await driver.findElement(By.id('username')).sendKeys('testuser');
